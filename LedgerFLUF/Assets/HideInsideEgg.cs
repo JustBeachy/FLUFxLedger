@@ -10,7 +10,7 @@ public class HideInsideEgg : MonoBehaviour
     {
         Eggs = GameObject.FindGameObjectsWithTag("Egg");
         int rand = Random.Range(0, Eggs.Length);
-        transform.position = (Eggs[rand].transform.position + new Vector3(0, .05f, 0));
+        transform.position = (Eggs[rand].transform.position + new Vector3(0, 0, 0));
     }
 
     // Update is called once per frame
