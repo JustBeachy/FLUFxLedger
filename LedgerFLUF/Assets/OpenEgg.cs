@@ -6,7 +6,7 @@ public class OpenEgg : MonoBehaviour
 {
     public Material[] mats;
     public GameObject topEgg;
-    public bool isTheOne = false;
+    public GameObject candy;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,5 +24,7 @@ public class OpenEgg : MonoBehaviour
     private void OnMouseDown()
     {
         gameObject.GetComponentInChildren<Animator>().SetBool("Open", true);
+        if (candy!=null)
+            print("found candy");
     }
 }

@@ -11,6 +11,7 @@ public class HideInsideEgg : MonoBehaviour
         Eggs = GameObject.FindGameObjectsWithTag("Egg");
         int rand = Random.Range(0, Eggs.Length);
         transform.position = (Eggs[rand].transform.position + new Vector3(0, 0, 0));
+        Eggs[rand].GetComponent<OpenEgg>().candy = gameObject;
     }
 
     // Update is called once per frame
