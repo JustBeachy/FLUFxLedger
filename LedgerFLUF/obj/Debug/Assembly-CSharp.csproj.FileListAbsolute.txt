@@ -274,3 +274,5 @@ B:\Games\LedgerFLUF\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
 B:\Games\LedgerFLUF\obj\Debug\Assembly-CSharp.csproj.CopyComplete
 B:\Games\LedgerFLUF\obj\Debug\Assembly-CSharp.dll
 B:\Games\LedgerFLUF\obj\Debug\Assembly-CSharp.pdb
+B:\Games\LedgerFLUF\Temp\bin\Debug\Unity.2D.Sprite.Editor.dll
+B:\Games\LedgerFLUF\Temp\bin\Debug\Unity.2D.Sprite.Editor.pdb
