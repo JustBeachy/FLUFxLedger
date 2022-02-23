@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class HiddenPixel : MonoBehaviour
 {
@@ -19,7 +20,7 @@ public class HiddenPixel : MonoBehaviour
 
     public void ClickedPixel()
     {
-        if (count > 1)
+        if (count > 1&&!GetComponent<Image>().enabled)
         {
             count--;
             Start();

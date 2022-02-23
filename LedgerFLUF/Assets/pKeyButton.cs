@@ -20,6 +20,7 @@ public class pKeyButton : MonoBehaviour
 
     public void AddLetter()
     {
+
         Keyguess.text += myText.text;
     }
 }

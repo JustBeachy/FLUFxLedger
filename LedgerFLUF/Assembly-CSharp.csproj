@@ -63,10 +63,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\AnimEvents.cs" />
+    <Compile Include="Assets\AnimationScript.cs" />
     <Compile Include="Assets\HiddenPixel.cs" />
     <Compile Include="Assets\HideInsideEgg.cs" />
     <Compile Include="Assets\OpenEgg.cs" />
     <Compile Include="Assets\PickAPixelGame.cs" />
+    <Compile Include="Assets\PinCodeButton.cs" />
     <Compile Include="Assets\QuizQuestion.cs" />
     <Compile Include="Assets\pKeyButton.cs" />
     <Reference Include="UnityEngine">
@@ -624,14 +626,14 @@
     <Reference Include="Unity.Rider.Editor">
       <HintPath>B:/Games/LedgerFLUF/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>B:/Games/LedgerFLUF/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>B:/Games/LedgerFLUF/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>B:/Games/LedgerFLUF/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>B:/Games/LedgerFLUF/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup></ItemGroup>
