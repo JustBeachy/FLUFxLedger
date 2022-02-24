@@ -397,6 +397,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PINtext: {fileID: 689371036}
+  TitleText: {fileID: 1571342809}
 --- !u!114 &118311867
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1026,10 +1027,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 28c679467ce8c4044bed3bea8d713b16, type: 3}
-    m_FontSize: 30
+    m_FontSize: 25
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 3
+    m_MinSize: 2
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -1119,6 +1120,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PINtext: {fileID: 689371036}
+  TitleText: {fileID: 1571342809}
 --- !u!114 &855341554
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1357,6 +1359,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PINtext: {fileID: 689371036}
+  TitleText: {fileID: 1571342809}
 --- !u!114 &914074677
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1517,6 +1520,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PINtext: {fileID: 689371036}
+  TitleText: {fileID: 1571342809}
 --- !u!114 &1034401377
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1677,6 +1681,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PINtext: {fileID: 689371036}
+  TitleText: {fileID: 1571342809}
 --- !u!114 &1375830137
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1872,6 +1877,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PINtext: {fileID: 689371036}
+  TitleText: {fileID: 1571342809}
 --- !u!114 &1411624889
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2032,6 +2038,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PINtext: {fileID: 689371036}
+  TitleText: {fileID: 1571342809}
 --- !u!114 &1467145208
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2262,6 +2269,7 @@ GameObject:
   - component: {fileID: 1571342810}
   - component: {fileID: 1571342812}
   - component: {fileID: 1571342811}
+  - component: {fileID: 1571342814}
   m_Layer: 5
   m_Name: PinTitle
   m_TagString: Untagged
@@ -2309,10 +2317,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 28c679467ce8c4044bed3bea8d713b16, type: 3}
-    m_FontSize: 30
+    m_FontSize: 28
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 3
+    m_MinSize: 2
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -2320,7 +2328,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: PIN code
+  m_Text: Enter PIN code
 --- !u!222 &1571342812
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2329,6 +2337,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1571342809}
   m_CullTransparentMesh: 0
+--- !u!114 &1571342814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1571342809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34e47d0be1fc343419510be85882f775, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pinText: {fileID: 689371036}
+  isWrong: 0
+  timer: 0
+  tries: 0
 --- !u!1 &1758965435
 GameObject:
   m_ObjectHideFlags: 0
@@ -2461,6 +2485,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PINtext: {fileID: 689371036}
+  TitleText: {fileID: 1571342809}
 --- !u!114 &1762823046
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2713,6 +2738,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PINtext: {fileID: 689371036}
+  TitleText: {fileID: 1571342809}
 --- !u!114 &1809555620
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2951,6 +2977,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PINtext: {fileID: 689371036}
+  TitleText: {fileID: 1571342809}
 --- !u!114 &1905905415
 MonoBehaviour:
   m_ObjectHideFlags: 0

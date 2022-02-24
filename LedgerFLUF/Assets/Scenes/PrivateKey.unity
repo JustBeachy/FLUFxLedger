@@ -281,7 +281,7 @@ GameObject:
   - component: {fileID: 92883340}
   m_Layer: 5
   m_Name: Button (6)
-  m_TagString: Untagged
+  m_TagString: Button
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -320,6 +320,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myText: {fileID: 1743921337}
   Keyguess: {fileID: 689371036}
+  canPress: 1
 --- !u!114 &92883341
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -520,7 +521,7 @@ GameObject:
   - component: {fileID: 118311866}
   m_Layer: 5
   m_Name: Button (15)
-  m_TagString: Untagged
+  m_TagString: Button
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -559,6 +560,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myText: {fileID: 1502446696}
   Keyguess: {fileID: 689371036}
+  canPress: 1
 --- !u!114 &118311867
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1191,7 +1193,7 @@ GameObject:
   - component: {fileID: 623975986}
   m_Layer: 5
   m_Name: Button (4)
-  m_TagString: Untagged
+  m_TagString: Button
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1230,6 +1232,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myText: {fileID: 1011357766}
   Keyguess: {fileID: 689371036}
+  canPress: 1
 --- !u!114 &623975987
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1386,7 +1389,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 0x
+  m_Text: 
 --- !u!222 &689371037
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1412,7 +1415,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1000, y: 100}
+  m_SizeDelta: {x: 900, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &855341551
 GameObject:
@@ -1430,7 +1433,7 @@ GameObject:
   - component: {fileID: 855341553}
   m_Layer: 5
   m_Name: Button
-  m_TagString: Untagged
+  m_TagString: Button
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1469,6 +1472,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myText: {fileID: 1829020135}
   Keyguess: {fileID: 689371036}
+  canPress: 1
 --- !u!114 &855341554
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1669,7 +1673,7 @@ GameObject:
   - component: {fileID: 869793315}
   m_Layer: 5
   m_Name: Button (7)
-  m_TagString: Untagged
+  m_TagString: Button
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1708,6 +1712,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myText: {fileID: 1078064777}
   Keyguess: {fileID: 689371036}
+  canPress: 1
 --- !u!114 &869793316
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1908,7 +1913,7 @@ GameObject:
   - component: {fileID: 914074676}
   m_Layer: 5
   m_Name: Button (8)
-  m_TagString: Untagged
+  m_TagString: Button
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1947,6 +1952,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myText: {fileID: 2046189016}
   Keyguess: {fileID: 689371036}
+  canPress: 1
 --- !u!114 &914074677
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2147,7 +2153,7 @@ GameObject:
   - component: {fileID: 1034401376}
   m_Layer: 5
   m_Name: Button (11)
-  m_TagString: Untagged
+  m_TagString: Button
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2186,6 +2192,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myText: {fileID: 48302949}
   Keyguess: {fileID: 689371036}
+  canPress: 1
 --- !u!114 &1034401377
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2386,7 +2393,7 @@ GameObject:
   - component: {fileID: 1101028588}
   m_Layer: 5
   m_Name: Button (5)
-  m_TagString: Untagged
+  m_TagString: Button
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2425,6 +2432,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myText: {fileID: 459223664}
   Keyguess: {fileID: 689371036}
+  canPress: 1
 --- !u!114 &1101028589
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2547,7 +2555,7 @@ GameObject:
   - component: {fileID: 1375830136}
   m_Layer: 5
   m_Name: Button (13)
-  m_TagString: Untagged
+  m_TagString: Button
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2586,6 +2594,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myText: {fileID: 1758965437}
   Keyguess: {fileID: 689371036}
+  canPress: 1
 --- !u!114 &1375830137
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2708,7 +2717,7 @@ GameObject:
   - component: {fileID: 1383757050}
   m_Layer: 5
   m_Name: Button (3)
-  m_TagString: Untagged
+  m_TagString: Button
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2747,6 +2756,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myText: {fileID: 858134299}
   Keyguess: {fileID: 689371036}
+  canPress: 1
 --- !u!114 &1383757051
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2869,7 +2879,7 @@ GameObject:
   - component: {fileID: 1411624888}
   m_Layer: 5
   m_Name: Button (9)
-  m_TagString: Untagged
+  m_TagString: Button
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2908,6 +2918,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myText: {fileID: 2121614509}
   Keyguess: {fileID: 689371036}
+  canPress: 1
 --- !u!114 &1411624889
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3030,7 +3041,7 @@ GameObject:
   - component: {fileID: 1467145207}
   m_Layer: 5
   m_Name: Button (1)
-  m_TagString: Untagged
+  m_TagString: Button
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3069,6 +3080,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myText: {fileID: 903576743}
   Keyguess: {fileID: 689371036}
+  canPress: 1
 --- !u!114 &1467145208
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3269,7 +3281,7 @@ GameObject:
   - component: {fileID: 1547272714}
   m_Layer: 5
   m_Name: Button (2)
-  m_TagString: Untagged
+  m_TagString: Button
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3308,6 +3320,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myText: {fileID: 454642860}
   Keyguess: {fileID: 689371036}
+  canPress: 1
 --- !u!114 &1547272715
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3661,7 +3674,7 @@ GameObject:
   - component: {fileID: 1762823045}
   m_Layer: 5
   m_Name: Button (12)
-  m_TagString: Untagged
+  m_TagString: Button
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3700,6 +3713,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myText: {fileID: 484174017}
   Keyguess: {fileID: 689371036}
+  canPress: 1
 --- !u!114 &1762823046
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3914,7 +3928,7 @@ GameObject:
   - component: {fileID: 1809555619}
   m_Layer: 5
   m_Name: Button (14)
-  m_TagString: Untagged
+  m_TagString: Button
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3953,6 +3967,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myText: {fileID: 115834500}
   Keyguess: {fileID: 689371036}
+  canPress: 1
 --- !u!114 &1809555620
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4153,7 +4168,7 @@ GameObject:
   - component: {fileID: 1905905414}
   m_Layer: 5
   m_Name: Button (10)
-  m_TagString: Untagged
+  m_TagString: Button
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4192,6 +4207,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myText: {fileID: 308350400}
   Keyguess: {fileID: 689371036}
+  canPress: 1
 --- !u!114 &1905905415
 MonoBehaviour:
   m_ObjectHideFlags: 0

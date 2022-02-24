@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class PinCodeButton : MonoBehaviour
 {
     public Text PINtext;
+    public GameObject TitleText;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,10 +21,19 @@ public class PinCodeButton : MonoBehaviour
 
     public void ApplyLetter()
     {
+        PINtext.text = PINtext.text.Trim('-');
         if (PINtext.text.Length < 4)
         {
-            PINtext.text = PINtext.text.Trim('-');
+            
             PINtext.text += GetComponentInChildren<Text>().text;
+
+            if (PINtext.text.Length >= 4)
+            {
+                PINtext.text = "****";
+                TitleText.GetComponent<PINtitle>().isWrong = true;
+                //PINtext do something
+            }
+
 
             int newlength = PINtext.text.Length;
             for (int i = 4; i > newlength; i--)
@@ -31,10 +41,7 @@ public class PinCodeButton : MonoBehaviour
                 PINtext.text += "-";
             }
 
-            if (PINtext.text.Length >=4)
-            {
-                //PINtext do something
-            }
+           
 
         }
 
