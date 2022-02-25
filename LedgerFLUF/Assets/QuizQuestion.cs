@@ -2,12 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class QuizQuestion : MonoBehaviour
 {
-    public Text Question;
-    public GameObject A1, A2, A3, A4;
+    
+   
     public bool isAnswer;
+    public Scene NextQuestionScene;
+    float timer;
+    bool correctlyGuessed;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,12 +21,21 @@ public class QuizQuestion : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (correctlyGuessed)
+            timer += Time.deltaTime;
+
+        if (timer >= 2)
+            print("load next scene");//go to next scene
     }
 
-    public void CheckIfAnswer()
+    public void ButtonPressed()
     {
         if (isAnswer)
-            ;//do something;
-    }
+        {
+            GetComponent<Image>().color = Color.green;
+            correctlyGuessed = true;
+        }
+        else
+            GetComponent<Image>().color = Color.red;
+        }
 }

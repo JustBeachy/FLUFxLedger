@@ -201,7 +201,7 @@ GameObject:
   - component: {fileID: 153866986}
   - component: {fileID: 153866989}
   m_Layer: 5
-  m_Name: Button (2)
+  m_Name: Button C
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -269,7 +269,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 153866987}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 153866989}
+        m_MethodName: ButtonPressed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &153866987
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -319,12 +330,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21a0acec793435948b6835e81cb2e078, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Question: {fileID: 0}
-  A1: {fileID: 0}
-  A2: {fileID: 0}
-  A3: {fileID: 0}
-  A4: {fileID: 0}
-  isAnswer: 0
+  isAnswer: 1
+  NextQuestionScene:
+    m_Handle: 0
 --- !u!1 &168972664
 GameObject:
   m_ObjectHideFlags: 0
@@ -394,7 +402,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Answer
+  m_Text: C
 --- !u!222 &168972667
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -677,12 +685,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21a0acec793435948b6835e81cb2e078, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Question: {fileID: 1908314328}
-  A1: {fileID: 1345865014}
-  A2: {fileID: 1321696464}
-  A3: {fileID: 153866984}
-  A4: {fileID: 605701525}
   isAnswer: 0
+  NextQuestionScene:
+    m_Handle: 0
 --- !u!1 &605701525
 GameObject:
   m_ObjectHideFlags: 0
@@ -697,7 +702,7 @@ GameObject:
   - component: {fileID: 605701527}
   - component: {fileID: 605701530}
   m_Layer: 5
-  m_Name: Button (3)
+  m_Name: Button D
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -765,7 +770,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 605701528}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 605701530}
+        m_MethodName: ButtonPressed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &605701528
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -815,12 +831,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21a0acec793435948b6835e81cb2e078, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Question: {fileID: 0}
-  A1: {fileID: 0}
-  A2: {fileID: 0}
-  A3: {fileID: 0}
-  A4: {fileID: 0}
   isAnswer: 0
+  NextQuestionScene:
+    m_Handle: 0
 --- !u!1 &1054040262
 GameObject:
   m_ObjectHideFlags: 0
@@ -890,7 +903,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Answer
+  m_Text: B
 --- !u!222 &1054040265
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -913,7 +926,7 @@ GameObject:
   - component: {fileID: 1321696466}
   - component: {fileID: 1321696469}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: Button B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -981,7 +994,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1321696467}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1321696469}
+        m_MethodName: ButtonPressed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1321696467
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1031,12 +1055,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21a0acec793435948b6835e81cb2e078, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Question: {fileID: 0}
-  A1: {fileID: 0}
-  A2: {fileID: 0}
-  A3: {fileID: 0}
-  A4: {fileID: 0}
   isAnswer: 0
+  NextQuestionScene:
+    m_Handle: 0
 --- !u!1 &1345865014
 GameObject:
   m_ObjectHideFlags: 0
@@ -1051,7 +1072,7 @@ GameObject:
   - component: {fileID: 1345865016}
   - component: {fileID: 1345865019}
   m_Layer: 5
-  m_Name: Button
+  m_Name: ButtonA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1119,7 +1140,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1345865017}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1345865019}
+        m_MethodName: ButtonPressed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1345865017
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1169,12 +1201,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21a0acec793435948b6835e81cb2e078, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Question: {fileID: 0}
-  A1: {fileID: 0}
-  A2: {fileID: 0}
-  A3: {fileID: 0}
-  A4: {fileID: 0}
   isAnswer: 0
+  NextQuestionScene:
+    m_Handle: 0
 --- !u!1 &1580703319
 GameObject:
   m_ObjectHideFlags: 0
@@ -1244,7 +1273,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Answer
+  m_Text: A
 --- !u!222 &1580703322
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1322,7 +1351,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Answer
+  m_Text: D
 --- !u!222 &1650728202
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1492,7 +1521,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: Guess C
 --- !u!222 &1908314329
 CanvasRenderer:
   m_ObjectHideFlags: 0
