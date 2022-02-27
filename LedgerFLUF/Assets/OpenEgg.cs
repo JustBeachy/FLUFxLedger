@@ -9,6 +9,7 @@ public class OpenEgg : MonoBehaviour
     public GameObject candy;
     float pitch;
     public bool canOpen = true;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -33,11 +34,15 @@ public class OpenEgg : MonoBehaviour
         {
             GetComponent<AudioSource>().pitch = pitch;
             GetComponent<AudioSource>().Play();
+            HideInsideEgg.OpenedCount++;
 
             if (candy != null)
             {
+                
                 candy.GetComponent<AudioSource>().Play();
+                candy.GetComponent<HideInsideEgg>().found = true;
                 flag = true;
+                
             }
         }
 

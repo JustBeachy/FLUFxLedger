@@ -19,7 +19,7 @@ public class SimpleDestroy : MonoBehaviour
 
     public void DestroyObject()
     {
-        Destroy(gameObject);
+        Destroy(objectToDestroy);
     }
 
     public void CreateObject()

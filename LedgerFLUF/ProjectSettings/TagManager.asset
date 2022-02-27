@@ -8,6 +8,8 @@ TagManager:
   - Candy
   - Button
   - Canvas
+  - GameOver
+  - MoveTowards
   layers:
   - Default
   - TransparentFX
