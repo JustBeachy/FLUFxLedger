@@ -29,6 +29,7 @@ public class pKeyButton : MonoBehaviour
     {
         if (canPress)
         {
+            Keyguess.GetComponent<AudioSource>().Play();
             Keyguess.text += myText.text;
 
             char[] privArray = privateKey.ToCharArray();
@@ -44,8 +45,9 @@ public class pKeyButton : MonoBehaviour
 
             if (!isMatching)
             {
+                GetComponent<AudioSource>().Play();//play "wrong" audio
                 Keyguess.text = "Wrong character. Number of characters you entered correctly: " + (guessArray.Length - 1).ToString();
-
+                Keyguess.color = Color.red;
                 GameObject[] allButtons = GameObject.FindGameObjectsWithTag("Button");
                 foreach (GameObject b in allButtons)
                     b.GetComponent<pKeyButton>().canPress = false;

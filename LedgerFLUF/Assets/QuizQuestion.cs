@@ -6,8 +6,8 @@ using UnityEngine.SceneManagement;
 
 public class QuizQuestion : MonoBehaviour
 {
-    
-   
+
+    public Text questionText;
     public bool isAnswer;
     public Scene NextQuestionScene;
     float timer;
@@ -30,10 +30,15 @@ public class QuizQuestion : MonoBehaviour
 
     public void ButtonPressed()
     {
+        if (!GetComponent<AudioSource>().isPlaying&&!correctlyGuessed)
+            GetComponent<AudioSource>().Play();
+
         if (isAnswer)
         {
             GetComponent<Image>().color = Color.green;
             correctlyGuessed = true;
+            questionText.text = "Correct!";
+            questionText.color = Color.green;
         }
         else
             GetComponent<Image>().color = Color.red;

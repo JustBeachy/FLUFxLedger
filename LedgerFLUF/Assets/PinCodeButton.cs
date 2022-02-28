@@ -21,6 +21,7 @@ public class PinCodeButton : MonoBehaviour
 
     public void ApplyLetter()
     {
+        TitleText.GetComponent<AudioSource>().Play();
         PINtext.text = PINtext.text.Trim('-');
         if (PINtext.text.Length < 4)
         {

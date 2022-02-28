@@ -17,10 +17,13 @@ public class PickAPixelGame : MonoBehaviour
 
     public void MissedThePixel()
     {
+        if (!missclicked && !GetComponent<AudioSource>().isPlaying)
+            GetComponent<AudioSource>().Play();
         missclicked = true;
         pixel.GetComponent<Image>().enabled = true;
         pixel.transform.localScale = new Vector2(4, 4);
         titleText.text = "You missed it. See how difficult this would be?";
+        titleText.color = Color.red;
     }
     // Update is called once per frame
     void Update()

@@ -9,6 +9,7 @@ public class KeyPhraseButton : MonoBehaviour
     Text myText;
     Image myButton;
     public bool clicked=false;
+    public GameObject audioCorrect, audioWrong;
 
     // Start is called before the first frame update
     void Start()
@@ -27,7 +28,11 @@ public class KeyPhraseButton : MonoBehaviour
     {
         if (seedPhrase.text.Contains(myText.text))
         {
+            if (!clicked)
+                audioCorrect.GetComponent<AudioSource>().Play();
+
             myButton.color = Color.green;
+
             clicked = true;
 
             GameObject[] buttons = GameObject.FindGameObjectsWithTag("Button");
@@ -43,6 +48,9 @@ public class KeyPhraseButton : MonoBehaviour
                 print("Do something ");
         }
         else
+        {
             myButton.color = Color.red;
+            audioWrong.GetComponent<AudioSource>().Play();
+        }
     }
 }

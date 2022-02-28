@@ -189,6 +189,7 @@ public class Leaderboard : MonoBehaviour
         clothesList.Add("Halo");
         clothesList.Add("Kimono");
         clothesList.Add("Dress");
+        clothesList.Add("Hypno");
 
         List<string> sexList = new List<string>();
         sexList.Add("Male");
