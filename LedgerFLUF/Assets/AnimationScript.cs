@@ -5,6 +5,7 @@ using UnityEngine;
 public class AnimationScript : MonoBehaviour
 {
     public GameObject objectToShow;
+    public GameObject objectToDestroy;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,7 +15,12 @@ public class AnimationScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
+
+    }
+    public void DestroyObject()
+    {
+        Destroy(objectToDestroy);
     }
 
     public void PauseAnimation()

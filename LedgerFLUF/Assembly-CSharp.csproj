@@ -66,6 +66,7 @@
     <Compile Include="Assets\AnimationScript.cs" />
     <Compile Include="Assets\HiddenPixel.cs" />
     <Compile Include="Assets\HideInsideEgg.cs" />
+    <Compile Include="Assets\Interactable.cs" />
     <Compile Include="Assets\KeyPhraseButton.cs" />
     <Compile Include="Assets\Leaderboard.cs" />
     <Compile Include="Assets\OpenEgg.cs" />
