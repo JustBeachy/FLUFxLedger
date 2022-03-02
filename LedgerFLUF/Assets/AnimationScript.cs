@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class AnimationScript : MonoBehaviour
 {
@@ -31,5 +32,10 @@ public class AnimationScript : MonoBehaviour
     public void ShowGameObject()
     {
         objectToShow.SetActive(true);
+    }
+
+    public void GoToNextScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }

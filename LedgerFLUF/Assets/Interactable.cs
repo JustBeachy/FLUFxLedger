@@ -23,8 +23,8 @@ public class Interactable : MonoBehaviour
         {
             notTouched = false;
 
-            float rotX = Input.GetAxis("Mouse X") * 400 * Time.deltaTime;
-            float rotY = Input.GetAxis("Mouse Y") * 400 * Time.deltaTime;
+            float rotX = Input.GetAxis("Mouse X") * 200 * Time.deltaTime;
+            float rotY = Input.GetAxis("Mouse Y") * 200 * Time.deltaTime;
 
             lastXspeed = -rotX;
             lastYspeed = rotY;
