@@ -64,6 +64,7 @@
   <ItemGroup>
     <Compile Include="Assets\AnimEvents.cs" />
     <Compile Include="Assets\AnimationScript.cs" />
+    <Compile Include="Assets\FrameRate.cs" />
     <Compile Include="Assets\HiddenPixel.cs" />
     <Compile Include="Assets\HideInsideEgg.cs" />
     <Compile Include="Assets\Interactable.cs" />
@@ -76,6 +77,7 @@
     <Compile Include="Assets\QuizQuestion.cs" />
     <Compile Include="Assets\ScoreListing.cs" />
     <Compile Include="Assets\SimpleDestroy.cs" />
+    <Compile Include="Assets\TypeText.cs" />
     <Compile Include="Assets\pKeyButton.cs" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.25f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>

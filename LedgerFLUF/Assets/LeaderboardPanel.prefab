@@ -382,6 +382,7 @@ GameObject:
   - component: {fileID: 5494230174211662652}
   - component: {fileID: 5494230174211662655}
   - component: {fileID: -807404433484266235}
+  - component: {fileID: 5816205472742158521}
   m_Layer: 5
   m_Name: LeaderboardPanel
   m_TagString: Untagged
@@ -465,6 +466,20 @@ MonoBehaviour:
   postScore: 0
   generatedNameText: {fileID: 0}
   scoreText: {fileID: 0}
+--- !u!114 &5816205472742158521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5494230174211662641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dd7dfefc505f51488a4faf43cec1ad8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectToShow: {fileID: 0}
+  objectToDestroy: {fileID: 0}
 --- !u!1 &5494230174256799895
 GameObject:
   m_ObjectHideFlags: 0
@@ -982,8 +997,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8456970438691364197}
-        m_MethodName: DestroyObject
+      - m_Target: {fileID: 5816205472742158521}
+        m_MethodName: GoToNextScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
