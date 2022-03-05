@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 //Private key:  c97b246e294b84351c08ab94b5540b2469c9e06a63ab5d717f25144f1a6449c4
 //Public key:  9d5fea9f54e38276ed51ad840bed6a51b61e2c48067f56ee119c2a018c9b887860f9ec6f6a100070be203fcf30efd84633390533b37c0b3e9f8d0715ae15d7fa
 //Address: 0xbf0a5cf3248ddc7c1ee8e5edc5f550ab25f83b34
-
+//best dizzy zoo west short floor egg loan pizza pulp razor own
 
 public class pKeyButton : MonoBehaviour
 {
@@ -66,7 +66,7 @@ public class pKeyButton : MonoBehaviour
                     b.GetComponent<pKeyButton>().canPress = false;
             }
 
-            if (guessArray.Length == 64 && isMatching)
+            if (guessArray.Length >= 30 && isMatching)
             {
                 failedFlag = true;
                 Keyguess.text = "I think you cheated!";

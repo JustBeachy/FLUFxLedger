@@ -33,7 +33,7 @@ public class HideInsideEgg : MonoBehaviour
 
         if(found)
         {
-            transform.position = Vector3.MoveTowards(transform.position, GameObject.FindGameObjectWithTag("MoveTowards").transform.position, .01f);
+            transform.position = Vector3.MoveTowards(transform.position, GameObject.FindGameObjectWithTag("MoveTowards").transform.position, .02f);
             
             //found = false;
             timer += Time.deltaTime;

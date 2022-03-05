@@ -7,6 +7,7 @@ public class AnimationScript : MonoBehaviour
 {
     public GameObject objectToShow;
     public GameObject objectToDestroy;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -37,5 +38,10 @@ public class AnimationScript : MonoBehaviour
     public void GoToNextScene()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
+    public void DestroyComponent()
+    {
+        Destroy(transform.parent.gameObject.GetComponent<Interactable>());
     }
 }

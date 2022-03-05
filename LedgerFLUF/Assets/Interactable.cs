@@ -16,7 +16,7 @@ public class Interactable : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(notTouched)
+       // if(notTouched)
             transform.Rotate(Vector3.up,rotationSpeed*Time.deltaTime, Space.World);
 
         if (Input.GetMouseButton(0))//for pc testing

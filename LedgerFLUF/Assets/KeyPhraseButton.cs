@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class KeyPhraseButton : MonoBehaviour
@@ -10,7 +11,8 @@ public class KeyPhraseButton : MonoBehaviour
     Image myButton;
     public bool clicked=false;
     public GameObject audioCorrect, audioWrong;
-
+    bool startTimer = false;
+    float timer = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,7 +23,13 @@ public class KeyPhraseButton : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(startTimer)
+        timer += Time.deltaTime;
+
+        if(timer>.5)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
     }
 
     public void ButtonPressed()
@@ -45,7 +53,7 @@ public class KeyPhraseButton : MonoBehaviour
             }
 
             if (count >= 12)
-                print("Do something ");
+                startTimer = true;
         }
         else
         {
