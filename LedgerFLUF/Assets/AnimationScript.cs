@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class AnimationScript : MonoBehaviour
 {
     public GameObject objectToShow;
-    public GameObject objectToDestroy;
+    public GameObject objectToDestroy, UIObjectToCreate;
     
     // Start is called before the first frame update
     void Start()
@@ -43,5 +43,10 @@ public class AnimationScript : MonoBehaviour
     public void DestroyComponent()
     {
         Destroy(transform.parent.gameObject.GetComponent<Interactable>());
+    }
+
+    public void CreateUIObject()
+    {
+        Instantiate(UIObjectToCreate, GameObject.FindGameObjectWithTag("Canvas").transform);
     }
 }

@@ -25,7 +25,7 @@ public class QuizQuestion : MonoBehaviour
             timer += Time.deltaTime;
 
         if (timer >= 2)
-            print("load next scene");//go to next scene
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     public void ButtonPressed()
